@@ -1,0 +1,118 @@
+Question,Expected Answer,Retrieved Context,Generated Answer,Grounded?,Correct?,Sources
+What is this document about?,TODO: fill in after reading the source document(s),Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.16); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.18); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.17); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1149); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.4); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.13),"This document is the front‑matter of the book *Hands‑On Machine Learning with Scikit‑Learn, Keras, and TensorFlow* by Aurélien Géron. It contains the author’s acknowledgments, a brief biography, information about the book’s supplemental code notebooks, and publisher/legal notices. The book itself is a practical guide to machine learning using scikit‑learn, Keras, and TensorFlow.",Yes,TODO,Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.16); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.18); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.17); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1149); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.4); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.13)
+Summarize the main topic in two sentences.,TODO: fill in after reading the source document(s),Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.20); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.578); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.25); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.564); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.28); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.26),"The passage explains how text data can be represented using a bag‑of‑words approach and TF‑IDF weighting, and discusses the use of Keras preprocessing layers to adapt to new data. It also outlines a range of machine‑learning applications—from NLP tasks such as speech recognition and text summarization to regression, anomaly detection, clustering, and data visualization—showing how ML can replace rule‑based solutions and uncover hidden patterns.",Yes,TODO,Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.20); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.578); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.25); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.564); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.28); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.26)
+What are the key requirements or steps mentioned?,TODO: fill in after reading the source document(s),Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1009); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1012); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1011); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1088); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.126); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.166),"**Key requirements / steps mentioned in the context**
+
+1. **Define and align performance**  
+   - Decide how performance will be measured.  
+   - Verify that the measure aligns with the business objective.  
+   - Determine the minimum performance needed to meet the objective.  
+
+2. **Understand the problem**  
+   - Identify comparable problems and reusable tools.  
+   - Confirm availability of human expertise.  
+   - Outline a manual solution approach.  
+   - List and verify assumptions.  
+
+3. **Get the data** (automation preferred)  
+   - List required data and quantity.  
+   - Locate data sources and document them.  
+   - Estimate storage space and legal obligations.  
+   - Obtain necessary authorizations and create a workspace.  
+   - Acquire, convert, and protect the data (e.g., anonymize sensitive info).  
+
+4. **Feature engineering**  
+   - Discretize continuous features.  
+   - Decompose categorical, date/time, etc.  
+   - Apply transformations (log, sqrt, etc.).  
+   - Aggregate new features.  
+
+5. **Feature scaling**  
+   - Standardize or normalize features.  
+
+6. **Model short‑listing & training**  
+   - Sample smaller training sets if data is huge.  
+   - Train quick, diverse models (linear, naive Bayes, SVM, Random Forest, neural net, etc.) with standard parameters.  
+   - Use N‑fold cross‑validation to compute mean and standard deviation of performance.  
+   - Analyze significant variables, error types, and promising transformations.  
+
+7. **Prepare the data for production**  
+   - Work on copies; keep originals intact.  
+   - Write reusable transformation functions.  
+   - Clean data (handle outliers, missing values).  
+   - Optionally perform feature selection.  
+
+8. **Training & evaluation**  
+   - Train selected models (e.g., linear regression via closed‑form or gradient descent).  
+   - Fine‑tune hyperparameters.  
+   - Evaluate on a test set.  
+
+9. **Error analysis & iteration**  
+   - Examine error types.  
+   - Identify additional useful data or transformations.  
+
+10. **Deployment & maintenance**  
+    - Launch, monitor, and maintain the system.  
+
+These steps collectively outline the end‑to‑end process for a machine‑learning project as described in the provided documents.",Yes,TODO,Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1009); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1012); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1011); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1088); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.126); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.166)
+Who is the intended audience for this document?,TODO: fill in after reading the source document(s),Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.4); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.16); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.18); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.54); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.17); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.750),I could not find this information in the provided documents.,Yes,TODO,Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.4); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.16); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.18); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.54); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.17); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.750)
+Are there any dates or deadlines mentioned?,TODO: fill in after reading the source document(s),test.html; Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.875); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.474); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.125); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.945); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.473),"The documents mention time‑based limits (e.g., a two‑year warranty and returns accepted within 30 days of purchase) but do not specify any particular dates or deadlines.",Yes,TODO,test.html; Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.875); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.474); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.125); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.945); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.473)
+What definitions or key terms are introduced?,TODO: fill in after reading the source document(s),Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.564); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.12); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1106); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.31); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.104); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1087),"**Definitions / key terms introduced in the provided text**
+
+- **Lists of lists** – a way to represent nested data (e.g., documents → sentences → words).  
+- **Bias/variance trade‑off** – a core concept in machine learning (see Chapter 4).  
+- **Attribute vs. Feature** – an attribute is a data type (e.g., “mileage”); a feature is an attribute plus its value (e.g., “mileage = 15,000”).  
+- **Regression** – predicting a numeric value from input features.  
+- **Logistic Regression** – a regression algorithm used for classification, outputting class probabilities.  
+- **k‑Nearest Neighbors (k‑NN)** – a supervised learning algorithm that predicts based on nearby instances.  
+- **Estimator hyperparameters** – public instance variables (e.g., `imputer.strategy`).  
+- **Estimator learned parameters** – public instance variables with an underscore suffix (e.g., `imputer.statistics_`).  
+- **Pipeline estimator** – a sequence of transformers followed by a final estimator.  
+- **Handling text and categorical attributes** – e.g., the `ocean_proximity` attribute in the housing dataset.  
+- **Encoder‑Decoder model** – a neural network architecture for sequence‑to‑sequence tasks.  
+- **End‑of‑Sequence (EoS) token** – a special token marking the end of an output sequence.  
+- **Attention Is All You Need** – the Transformer architecture.  
+- **Energy function** – used in Hopfield Networks.  
+- **Ensemble Learning** – combining multiple models (bagging, boosting, stacking, voting).  
+- **Bagging and Pasting** – ensemble techniques that create diverse training subsets.  
+- **Out‑of‑Bag Evaluation** – a method for assessing bagging ensembles.  
+- **Voting Classifiers** – ensembles that output majority‑vote predictions.  
+- **Boosting (Gradient Boosting)** – sequentially adding models to correct previous errors.  
+- **Random Forests** – an ensemble of decision trees built on random patches/subspaces.  
+- **Stacking** – combining predictions of multiple models via a meta‑learner.  
+- **Manifold Learning** – learning low‑dimensional structures (manifold assumption/hypothesis).  
+- **Manual Differentiation** – computing derivatives by hand.  
+- **Soft Margin Classification** – handling margin violations in classifiers.  
+- **Markov Chains / Markov Decision Processes (MDP)** – stochastic models for sequential decision making.  
+- **Mask R‑CNN** – a model for semantic segmentation.  
+- **Mask tensors / Masking** – techniques for handling variable‑length sequences or missing data.  
+- **Masked Language Model (MLM)** – a recent innovation in language modeling.  
+- **Entropy impurity measure** – used in decision tree splits (Gini impurity or entropy).",Yes,TODO,Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.564); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.12); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1106); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.31); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.104); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1087)
+"What examples are given, if any?",TODO: fill in after reading the source document(s),Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.564); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.808); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.25); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.64); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.34); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.749),"The documents list several concrete examples, including:
+
+- **Reinforcement‑learning tasks**:  
+  1. Robotics  
+  2. Ms. Pac‑Man  
+  3. Go player  
+  4. Thermostat control  
+  5. Automatic trader  
+
+- **Other ML‑suitable tasks** mentioned elsewhere:  
+  - Self‑driving cars  
+  - Recommender systems  
+  - Placing ads on a web page  
+  - Controlling where an image‑classification system focuses its attention  
+
+- **Speech‑recognition example** (distinguishing “one” vs. “two”).",Yes,TODO,Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.564); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.808); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.25); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.64); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.34); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.749)
+"Are there any numeric limits, prices, or quantities mentioned?",TODO: fill in after reading the source document(s),Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.74); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.577); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.909); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.85); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.119); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.893),"Yes. The documents mention:
+
+* The median house value is capped at **$500,000** (the target label is limited to this value).  
+* A GPU cost example: “3 actually means about **$30,000**.”  
+
+These are the numeric limits and price references provided.",Yes,TODO,Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.74); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.577); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.909); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.85); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.119); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.893)
+"What should someone do if something goes wrong, according to the document?",TODO: fill in after reading the source document(s),Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.4); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.457); test.html; Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1009); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.60); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.16),"If something goes wrong, the document says to reach out for help:  
+
+* For product‑related problems, contact **customer support** (Monday‑Friday, 9 AM‑5 PM) or return the item within 30 days if it’s unused.  
+* For book‑related issues, email **bookquestions@oreilly.com** or file an issue on the book’s GitHub repository (or submit errata).",Yes,TODO,Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.4); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.457); test.html; Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.1009); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.60); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.16)
+Is there anything explicitly out of scope or excluded?,TODO: fill in after reading the source document(s),Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.53); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.65); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.625); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.104); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.52),I could not find this information in the provided documents.,Yes,TODO,Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.53); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.65); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.625); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.104); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.52)
+What is the capital of Australia?,TODO: fill in after reading the source document(s),Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.128); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.94); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.72); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.121); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.92); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.45),I could not find this information in the provided documents.,Yes,TODO,Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.128); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.94); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.72); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.121); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.92); Hands_On_Machine_Learning_with_Scikit_Le.pdf (p.45)

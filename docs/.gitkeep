@@ -1,0 +1,4 @@
+Put your source PDF/DOCX/HTML documents in this folder (or upload them
+directly through the Streamlit sidebar). This folder's contents are
+gitignored on purpose - see the README for how to obtain the documents
+used in this project's evaluation.

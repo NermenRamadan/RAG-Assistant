@@ -1,0 +1,21 @@
+# --- Already in your original requirements.txt (kept as-is) ---------------
+langchain
+langchain-core
+langchain_community
+langchain_chroma
+docx2txt
+pypdf
+python-multipart
+sentence-transformers
+fastapi
+uvicorn
+streamlit
+
+# --- Newly required, and why ------------------------------------------------
+langchain-openai      # LangChain wrapper for OpenAI-compatible cloud LLMs (Groq, OpenAI, etc.)
+langchain-text-splitters  # used directly by chroma_utils.py (previously an indirect dependency)
+python-dotenv         # loads .env into environment variables
+beautifulsoup4        # powers BSHTMLLoader - a much lighter HTML loader than `unstructured`
+requests              # used by the Streamlit frontend's API client
+pytest                # test runner
+httpx                 # required by FastAPI's TestClient

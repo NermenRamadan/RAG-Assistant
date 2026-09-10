@@ -55,17 +55,19 @@ llm = ChatOpenAI(
     api_key=LLM_API_KEY,
     base_url=LLM_BASE_URL,
     temperature=0.2,
+    timeout=30,
+    # A flaky connection (antivirus/firewall SSL interception, a dropped
+    # Wi-Fi packet, etc.) can reset the TCP connection mid-request. The
+    # client already retries automatically; raising this from its default
+    # of 2 gives a couple of extra attempts before giving up and surfacing
+    # a 502 to the user.
+    max_retries=4,
 )
 
 # ---------------------------------------------------------------------------
 # Retriever - reused across every request, built once at import time
 # ---------------------------------------------------------------------------
-# k=6 instead of 4: a full book is split into far more chunks than a short
-# spec sheet, and one question's answer is more likely to be spread across
-# two or three chunks (e.g. a definition in one paragraph, a caveat in the
-# next). Raising k gives the LLM more of the surrounding context to work
-# with at a small extra cost per request.
-retriever = vectorstore.as_retriever(search_kwargs={"k": 6})
+retriever = vectorstore.as_retriever(search_kwargs={"k": 4})
 
 # Rewrites a follow-up question ("what about page 2?") into a standalone
 # question using the chat history, WITHOUT answering it.
@@ -87,7 +89,7 @@ contextualize_q_prompt = ChatPromptTemplate.from_messages(
 # "grounded": the model is explicitly told to only use the retrieved
 # context and to admit when it doesn't know.
 qa_system_prompt = (
-    "You are a helpful and structured assistant that answers questions about the user's "
+    "You are a helpful assistant that answers questions about the user's "
     "uploaded documents.\n\n"
     "Rules you MUST follow:\n"
     "1. Answer using ONLY the information in the context below.\n"
@@ -95,9 +97,7 @@ qa_system_prompt = (
     "3. If the context does not contain enough information to answer the "
     'question, respond exactly with: "I could not find this information in '
     'the provided documents."\n'
-    "4. Respond in the same language as the user's question.\n"
-    "5. Structure your answers clearly using bullet points, bold headers, and clear formatting.\n"
-    "6. When explaining technical concepts, include brief practical examples or scenario use-cases if available in the text.\n\n"
+    "4. Keep the answer concise and directly useful.\n\n"
     "Context:\n{context}"
 )
 qa_prompt = ChatPromptTemplate.from_messages(
